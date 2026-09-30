@@ -203,6 +203,7 @@ a { color: inherit; }
 .section--dark h2 { color: #fff; }
 .section--dark .eyebrow { color: var(--yellow); }
 .section--dark .section__intro { color: #c9d8ec; }
+.section--dark + .section--dark { border-top: 1px solid rgba(255, 255, 255, .12); }
 .section--warm { background: var(--warm); }
 
 @media (max-width: 600px) {
